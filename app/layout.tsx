@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: 'DevFlow',
   description: 'A community-driven platform for asking and answering programming questions. Get help, share knowledge and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data scructures, and more.',
   icons: {
-    icon: '/assets/favicon.ico'
+    icon: '/assets/images/site-logo.svg'
   }
 }
 
@@ -37,7 +37,6 @@ export default function RootLayout({
         footerActionLink: 'primary-text-gradient hover:text-primary-500'
       }
     }}
-    
     >
       <html lang="en">
         <body className={`${inter.variable} ${grotesk.variable}`}>
